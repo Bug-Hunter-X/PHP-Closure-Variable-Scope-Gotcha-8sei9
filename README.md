@@ -1,0 +1,3 @@
+# PHP Closure Variable Scope Issue
+
+This repository demonstrates a common, yet subtle, error in PHP related to variable scope within closures (anonymous functions).  The `bug.php` file shows the problematic code, while `bugSolution.php` offers the correct solution. This type of error can lead to unexpected behavior and debugging challenges.  The core issue lies in the implicit scope of variables accessed within the closure.
